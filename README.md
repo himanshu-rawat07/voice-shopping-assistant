@@ -42,7 +42,7 @@ It also provides **smart suggestions**, **item history**, and **real-time update
 - **Frontend:** React (Vite), TailwindCSS  
 - **Backend:** Firebase Firestore + Firebase Authentication  
 - **Voice Engine:** Web Speech API  
-- **Deployment:** Netlify / Vercel / Firebase Hosting  
+- **Deployment:** Vercel  
 
 ---
 
@@ -50,7 +50,7 @@ It also provides **smart suggestions**, **item history**, and **real-time update
 
 ```
 voice-shopping-assistant/
-│── public/           # Static files (favicon, index.html)
+│── public/           # Static files (favicon, index.html, screenshots)
 │── src/
 │   ├── components/   # UI Components (ShoppingList, Suggestions, VoiceInput)
 │   ├── utils/        # Command parser, history, speech utils
@@ -117,22 +117,17 @@ npm run build
 
 ## 📢 Deployment
 
-Easily deploy with:
-- **Vercel** → `vercel deploy`  
-- **Netlify** → `netlify deploy`  
-- **Firebase Hosting** → `firebase deploy`  
+This project is deployed on **Vercel** 🚀
 
-👉 Deployed Live at: [🔗 Your Deployment Link Here](https://your-live-link.com)
+👉 **Live Demo:** [voice-shopping-assistant.vercel.app](https://voice-shopping-assistant-beige.vercel.app/)
 
 ---
 
-## 📸 Screenshots 
-![App Screenshot](https://raw.githubusercontent.com/himanshu-rawat07/voice-shopping-assistant/main/public/screenshots/app-preview.png)
+## 📸 Screenshots
 
-- ✅ Home UI with Gradient Background  
-- ✅ Voice Input with Mic Button  
-- ✅ Shopping List with Quantity, Brand, Price  
-- ✅ Smart Suggestions + Search Results  
+| Home UI | Shopping List | Suggestions + Search |
+|---------|---------------|-----------------------|
+| ![Home](public/screenshots/app-preview.png) | ![Shopping List](public/screenshots/list.png) | ![Suggestions](public/screenshots/suggestions.png) |
 
 ---
 
@@ -143,4 +138,4 @@ Easily deploy with:
 
 ---
 
-⭐ If you like this project, consider giving it a **star** on GitHub!
+⭐ If you like this project, consider giving it a **star** on GitHub!  

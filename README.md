@@ -126,7 +126,8 @@ Easily deploy with:
 
 ---
 
-## 📸 Screenshots (Add later)
+## 📸 Screenshots 
+![App Screenshot](https://raw.githubusercontent.com/himanshu-rawat07/voice-shopping-assistant/main/public/screenshots/app-preview.png)
 
 - ✅ Home UI with Gradient Background  
 - ✅ Voice Input with Mic Button  
